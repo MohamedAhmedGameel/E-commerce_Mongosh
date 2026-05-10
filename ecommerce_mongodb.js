@@ -1,5 +1,5 @@
 // ╔══════════════════════════════════════════════════════════════════════════╗
-// ║          E-COMMERCE PLATFORM — MongoDB Database Script                  ║
+// ║          E-COMMERCE PLATFORM — MongoDB Database Script                   ║
 // ║          Advanced Database Systems — Final Project                      ║
 // ║          Database: ecommerce_db                                          ║
 // ║                                                                          ║
@@ -29,7 +29,7 @@ db.payments.drop();
 db.coupons.drop();
 db.inventory.drop();
 
-print("✓ All collections dropped. Starting fresh build...\n");
+print(" All collections dropped. Starting fresh build...\n");
 
 // ── 1. users ─────────────────────────────────────────────────────────────────
 db.createCollection("users", {
@@ -137,7 +137,7 @@ db.createCollection("payments");
 db.createCollection("coupons");
 db.createCollection("inventory");
 
-print("✓ All collections created with schema validators.\n");
+print(" All collections created with schema validators.\n");
 
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -194,7 +194,7 @@ db.inventory.createIndex({ quantity: 1 },                { name: "idx_inventory_
 // carts
 db.carts.createIndex({ userId: 1 },       { unique: true, name: "idx_carts_user_unique" });
 
-print("✓ All indexes created.\n");
+print(" All indexes created.\n");
 
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -669,7 +669,7 @@ const usersResult = db.users.insertMany([
   }
 ]);
 
-print(`  ✓ Inserted ${usersResult.insertedIds ? Object.keys(usersResult.insertedIds).length : 20} users.\n`);
+print(`   Inserted ${usersResult.insertedIds ? Object.keys(usersResult.insertedIds).length : 20} users.\n`);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.2  CATEGORIES  (15 documents — includes parent & child categories)
@@ -829,7 +829,7 @@ const catResult = db.categories.insertMany([
   }
 ]);
 
-print(`  ✓ Inserted ${catResult.insertedIds ? Object.keys(catResult.insertedIds).length : 15} categories.\n`);
+print(`   Inserted ${catResult.insertedIds ? Object.keys(catResult.insertedIds).length : 15} categories.\n`);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.3  SELLERS  (15 documents — reference user IDs by email for clarity)
@@ -1167,7 +1167,7 @@ db.sellers.insertMany([
   }
 ]);
 
-print(`  ✓ Inserted 15 sellers.\n`);
+print(`   Inserted 15 sellers.\n`);
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.4  PRODUCTS  (20 documents — rich nested structure)
@@ -2018,7 +2018,7 @@ db.products.insertMany([
   }
 ]);
 
-print("  ✓ Inserted 20 products.\n");
+print("   Inserted 20 products.\n");
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.5  COUPONS  (15 documents)
@@ -2268,7 +2268,7 @@ db.coupons.insertMany([
   }
 ]);
 
-print("  ✓ Inserted 15 coupons.\n");
+print("   Inserted 15 coupons.\n");
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.6  ORDERS  (18 documents — embedded items, nested shipping address)
@@ -2814,7 +2814,7 @@ db.orders.insertMany([
   }
 ]);
 
-print("  ✓ Inserted 18 orders.\n");
+print("   Inserted 18 orders.\n");
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.7  PAYMENTS  (18 documents — one per order)
@@ -2847,7 +2847,7 @@ const paymentDocs = ordersList.map((order, i) => ({
 }));
 
 db.payments.insertMany(paymentDocs);
-print("  ✓ Inserted 18 payment records.\n");
+print("   Inserted 18 payment records.\n");
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.8  REVIEWS  (20 documents — with nested structure)
@@ -3037,7 +3037,7 @@ db.reviews.insertMany([
   }
 ]);
 
-print("  ✓ Inserted 20 reviews.\n");
+print("   Inserted 20 reviews.\n");
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.9  CARTS  (15 documents — embedded items)
@@ -3062,7 +3062,7 @@ db.carts.insertMany([
   { userId: db.users.findOne({ email: "nathan.russo@email.com" })._id, items: [{ productId: p7._id, productName: p7.name, quantity: NumberInt(1), unitPrice: 399.99, variant: "Pistachio" }], totalItems: NumberInt(1), subtotal: 399.99, updatedAt: new Date() },  
 ]);
 
-print("  ✓ Inserted 15 carts.\n");
+print("   Inserted 15 carts.\n");
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 3.10  INVENTORY  (20 documents — per-product-variant warehouse records)
@@ -3092,9 +3092,9 @@ db.inventory.insertMany([
   { productId: p20._id, sku: "LGO-TECH-42151-STD",   productName: p20.name,variant: "Standard Box",              warehouse: "WH-CHI", quantity: NumberInt(180), reserved: NumberInt(20), available: NumberInt(160), reorderLevel: NumberInt(40), lastUpdated: new Date() }
 ]);
 
-print("  ✓ Inserted 20 inventory records.\n");
+print("   Inserted 20 inventory records.\n");
 print("══════════════════════════════════════════════════════════\n");
-print("✓ ALL DATA INSERTION COMPLETE\n");
+print(" ALL DATA INSERTION COMPLETE\n");
 print("══════════════════════════════════════════════════════════\n\n");
 
 // ══════════════════════════════════════════════════════════════════════════════
@@ -3135,7 +3135,7 @@ db.users.insertOne({
     newsletterSubscribed: true
   }
 });
-print("  ✓ insertOne (users) complete.\n");
+print("   insertOne (users) complete.\n");
 
 // insertOne — add a new coupon
 print("insertOne: Adding flash coupon 'CYBER25'...");
@@ -3155,7 +3155,7 @@ db.coupons.insertOne({
   expiresAt: new Date("2024-12-02"),
   createdAt: new Date()
 });
-print("  ✓ insertOne (coupons) complete.\n");
+print("   insertOne (coupons) complete.\n");
 
 // insertMany — add multiple new products
 print("insertMany: Adding 3 new products...");
@@ -3251,7 +3251,7 @@ db.products.insertMany([
     createdAt: new Date(), updatedAt: new Date()
   }
 ]);
-print("  ✓ insertMany (products) complete.\n");
+print("   insertMany (products) complete.\n");
 
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -3262,7 +3262,7 @@ print("── 4.2 READ OPERATIONS ───────────────�
 // find all active users
 print("find: All active customers:");
 db.users.find({ role: "customer", isActive: true }).toArray();
-print("  ✓ find (users) complete.\n");
+print("   find (users) complete.\n");
 
 // find with projection
 print("find + projection: Product names, prices, and ratings:");
@@ -3270,17 +3270,17 @@ db.products.find(
   { isActive: true },
   { name: 1, price: 1, averageRating: 1, totalSold: 1, _id: 0 }
 ).toArray();
-print("  ✓ find + projection complete.\n");
+print("   find + projection complete.\n");
 
 // findOne — get specific order
 print("findOne: Retrieve order ORD-2024-000001:");
 db.orders.findOne({ orderNumber: "ORD-2024-000001" });
-print("  ✓ findOne (orders) complete.\n");
+print("   findOne (orders) complete.\n");
 
 // find all delivered orders
 print("find: All delivered orders:");
 db.orders.find({ status: "delivered" }).toArray();
-print("  ✓ find (delivered orders) complete.\n");
+print("   find (delivered orders) complete.\n");
 
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -3300,7 +3300,7 @@ db.orders.updateOne(
     }
   }
 );
-print("  ✓ updateOne (orders) complete.\n");
+print("   updateOne (orders) complete.\n");
 
 // updateOne — award loyalty points to a user
 print("updateOne: Award 250 loyalty points to Alice Johnson...");
@@ -3311,7 +3311,7 @@ db.users.updateOne(
     $set: { lastLoginAt: new Date() }
   }
 );
-print("  ✓ updateOne (users – loyalty points) complete.\n");
+print("   updateOne (users – loyalty points) complete.\n");
 
 // updateOne — deactivate expired coupon
 print("updateOne: Deactivate expired coupon FLASH40...");
@@ -3319,7 +3319,7 @@ db.coupons.updateOne(
   { code: "FLASH40" },
   { $set: { isActive: false, updatedAt: new Date() } }
 );
-print("  ✓ updateOne (coupons) complete.\n");
+print("   updateOne (coupons) complete.\n");
 
 // updateOne — add a new variant to a product
 print("updateOne: Add new storage variant to Samsung T9 SSD...");
@@ -3337,7 +3337,7 @@ db.products.updateOne(
     $set: { updatedAt: new Date() }
   }
 );
-print("  ✓ updateOne ($push variant) complete.\n");
+print("   updateOne ($push variant) complete.\n");
 
 // updateMany — reduce price of all Books category products by 10%
 print("updateMany: Apply 10% sale price to all book products...");
@@ -3348,7 +3348,7 @@ db.products.updateMany(
     $set: { updatedAt: new Date(), onSale: true }
   }
 );
-print("  ✓ updateMany (products – books sale) complete.\n");
+print("   updateMany (products – books sale) complete.\n");
 
 // updateMany — increment usedCount for all active coupons that have been used
 print("updateMany: Increment usedCount by 1 for all active coupons with usedCount > 0...");
@@ -3356,7 +3356,7 @@ db.coupons.updateMany(
   { isActive: true, usedCount: { $gt: 0 } },
   { $inc: { usedCount: 1 } }
 );
-print("  ✓ updateMany (coupons – usedCount increment) complete.\n");
+print("   updateMany (coupons – usedCount increment) complete.\n");
 
 // updateOne — update user address
 print("updateOne: Update delivery address for Bob Martinez...");
@@ -3370,7 +3370,7 @@ db.users.updateOne(
     }
   }
 );
-print("  ✓ updateOne (nested address update) complete.\n");
+print("   updateOne (nested address update) complete.\n");
 
 // updateMany — mark out-of-stock items as inactive
 print("updateMany: Deactivate inventory items with quantity = 0...");
@@ -3378,7 +3378,7 @@ db.inventory.updateMany(
   { quantity: { $lte: 0 } },
   { $set: { available: NumberInt(0), lastUpdated: new Date() } }
 );
-print("  ✓ updateMany (inventory – zero stock) complete.\n");
+print("   updateMany (inventory – zero stock) complete.\n");
 
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -3400,7 +3400,7 @@ db.carts.deleteOne({
   userId: db.users.findOne({ email: "tom.hanson@email.com" })._id,
   totalItems: 0
 });
-print("  ✓ deleteOne (empty cart) complete.\n");
+print("   deleteOne (empty cart) complete.\n");
 
 // deleteMany — purge all expired, fully-used inactive coupons
 print("deleteMany: Delete fully-used & expired coupons...");
@@ -3408,7 +3408,7 @@ db.coupons.deleteMany({
   isActive: false,
   expiresAt: { $lt: new Date() }
 });
-print("  ✓ deleteMany (expired coupons) complete.\n");
+print("   deleteMany (expired coupons) complete.\n");
 
 // deleteMany — remove all reviews with 0 helpful votes from users no longer active
 print("deleteMany: Delete reviews with 0 helpfulVotes that are older than 1 year...");
@@ -3418,7 +3418,7 @@ db.reviews.deleteMany({
   helpfulVotes: 0,
   createdAt: { $lt: oneYearAgo }
 });
-print("  ✓ deleteMany (stale reviews) complete.\n");
+print("   deleteMany (stale reviews) complete.\n");
 
 print("\n");
 

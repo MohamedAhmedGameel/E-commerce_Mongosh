@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Platform — MongoDB Database
+#  E-Commerce Platform — MongoDB Database
 
 > **Advanced Database Systems · Final Project**  
 > A production-grade NoSQL database built with MongoDB, simulating a full-scale e-commerce platform with 10 collections, 13 relationships, schema validation, indexing, and comprehensive query coverage.
