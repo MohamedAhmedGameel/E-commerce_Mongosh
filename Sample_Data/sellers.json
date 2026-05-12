@@ -1,0 +1,312 @@
+[
+  {
+    "storeName": "TechVault",
+    "userId": "ref:grace.patel@email.com",
+    "description": "Premium electronics and gadgets since 2018",
+    "logoUrl": "/images/sellers/techvault.png",
+    "rating": 4.8,
+    "totalSales": 15400,
+    "totalRevenue": 2340000.00,
+    "isVerified": true,
+    "joinedAt": "2021-03-10T00:00:00Z",
+    "contactEmail": "support@techvault.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 50.00,
+      "shipsFrom": "Phoenix, AZ"
+    },
+    "socialLinks": {
+      "website": "https://techvault.com",
+      "instagram": "@techvault",
+      "twitter": "@TechVaultStore"
+    }
+  },
+  {
+    "storeName": "BrooksGear",
+    "userId": "ref:henry.brooks@email.com",
+    "description": "Sports and outdoor adventure equipment",
+    "logoUrl": "/images/sellers/brooksgear.png",
+    "rating": 4.5,
+    "totalSales": 8900,
+    "totalRevenue": 890000.00,
+    "isVerified": true,
+    "joinedAt": "2021-12-01T00:00:00Z",
+    "contactEmail": "hello@brooksgear.com",
+    "policies": {
+      "returnDays": 14,
+      "freeShippingAbove": 75.00,
+      "shipsFrom": "Dallas, TX"
+    },
+    "socialLinks": {
+      "website": "https://brooksgear.com",
+      "instagram": "@brooksgear"
+    }
+  },
+  {
+    "storeName": "StyleForward",
+    "userId": "ref:karen.lee@email.com",
+    "description": "Contemporary fashion for modern lifestyles",
+    "logoUrl": "/images/sellers/styleforward.png",
+    "rating": 4.6,
+    "totalSales": 22300,
+    "totalRevenue": 1670000.00,
+    "isVerified": true,
+    "joinedAt": "2021-07-15T00:00:00Z",
+    "contactEmail": "contact@styleforward.com",
+    "policies": {
+      "returnDays": 21,
+      "freeShippingAbove": 40.00,
+      "shipsFrom": "Portland, OR"
+    },
+    "socialLinks": {
+      "website": "https://styleforward.com",
+      "instagram": "@styleforward",
+      "pinterest": "StyleForward"
+    }
+  },
+  {
+    "storeName": "HomeHaven",
+    "userId": "ref:rachel.scott@email.com",
+    "description": "Quality home goods and décor for every taste",
+    "logoUrl": "/images/sellers/homehaven.png",
+    "rating": 4.3,
+    "totalSales": 6700,
+    "totalRevenue": 540000.00,
+    "isVerified": true,
+    "joinedAt": "2021-09-10T00:00:00Z",
+    "contactEmail": "shop@homehaven.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 60.00,
+      "shipsFrom": "Nashville, TN"
+    },
+    "socialLinks": {
+      "website": "https://homehaven.com",
+      "instagram": "@homehaven"
+    }
+  },
+  {
+    "storeName": "AudioPeak",
+    "description": "Audiophile-grade headphones, speakers, and accessories",
+    "logoUrl": "/images/sellers/audiopeak.png",
+    "rating": 4.9,
+    "totalSales": 11200,
+    "totalRevenue": 1950000.00,
+    "isVerified": true,
+    "joinedAt": "2020-06-01T00:00:00Z",
+    "contactEmail": "info@audiopeak.com",
+    "policies": {
+      "returnDays": 45,
+      "freeShippingAbove": 100.00,
+      "shipsFrom": "New York, NY"
+    },
+    "socialLinks": {
+      "website": "https://audiopeak.com",
+      "youtube": "AudioPeakOfficial"
+    }
+  },
+  {
+    "storeName": "LitCorner",
+    "description": "Books, e-books, and educational media",
+    "logoUrl": "/images/sellers/litcorner.png",
+    "rating": 4.7,
+    "totalSales": 31000,
+    "totalRevenue": 620000.00,
+    "isVerified": true,
+    "joinedAt": "2020-09-15T00:00:00Z",
+    "contactEmail": "hello@litcorner.com",
+    "policies": {
+      "returnDays": 10,
+      "freeShippingAbove": 25.00,
+      "shipsFrom": "Boston, MA"
+    },
+    "socialLinks": {
+      "website": "https://litcorner.com",
+      "goodreads": "LitCornerStore"
+    }
+  },
+  {
+    "storeName": "GlowBeauty",
+    "description": "Natural skincare and cruelty-free beauty products",
+    "logoUrl": "/images/sellers/glowbeauty.png",
+    "rating": 4.4,
+    "totalSales": 18700,
+    "totalRevenue": 840000.00,
+    "isVerified": true,
+    "joinedAt": "2021-02-20T00:00:00Z",
+    "contactEmail": "support@glowbeauty.com",
+    "policies": {
+      "returnDays": 14,
+      "freeShippingAbove": 35.00,
+      "shipsFrom": "Miami, FL"
+    },
+    "socialLinks": {
+      "website": "https://glowbeauty.com",
+      "instagram": "@glowbeauty",
+      "tiktok": "@glowbeautyco"
+    }
+  },
+  {
+    "storeName": "GamerZone",
+    "description": "Consoles, games, and pro-gaming gear",
+    "logoUrl": "/images/sellers/gamerzone.png",
+    "rating": 4.6,
+    "totalSales": 9400,
+    "totalRevenue": 2100000.00,
+    "isVerified": true,
+    "joinedAt": "2020-11-05T00:00:00Z",
+    "contactEmail": "deals@gamerzone.com",
+    "policies": {
+      "returnDays": 15,
+      "freeShippingAbove": 80.00,
+      "shipsFrom": "Austin, TX"
+    },
+    "socialLinks": {
+      "website": "https://gamerzone.com",
+      "twitch": "GamerZoneDeals",
+      "discord": "GamerZone"
+    }
+  },
+  {
+    "storeName": "KidsWorld",
+    "description": "Safe and educational toys for all ages",
+    "logoUrl": "/images/sellers/kidsworld.png",
+    "rating": 4.8,
+    "totalSales": 25100,
+    "totalRevenue": 780000.00,
+    "isVerified": true,
+    "joinedAt": "2020-04-10T00:00:00Z",
+    "contactEmail": "care@kidsworld.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 45.00,
+      "shipsFrom": "Chicago, IL"
+    },
+    "socialLinks": {
+      "website": "https://kidsworld.com",
+      "facebook": "KidsWorldToys"
+    }
+  },
+  {
+    "storeName": "FreshKitchen",
+    "description": "Chef-quality cookware and kitchen gadgets",
+    "logoUrl": "/images/sellers/freshkitchen.png",
+    "rating": 4.5,
+    "totalSales": 7600,
+    "totalRevenue": 380000.00,
+    "isVerified": false,
+    "joinedAt": "2022-07-01T00:00:00Z",
+    "contactEmail": "orders@freshkitchen.com",
+    "policies": {
+      "returnDays": 21,
+      "freeShippingAbove": 55.00,
+      "shipsFrom": "San Francisco, CA"
+    },
+    "socialLinks": {
+      "website": "https://freshkitchen.com",
+      "instagram": "@freshkitchenco"
+    }
+  },
+  {
+    "storeName": "RunFast",
+    "description": "Performance running shoes and fitness apparel",
+    "logoUrl": "/images/sellers/runfast.png",
+    "rating": 4.3,
+    "totalSales": 5400,
+    "totalRevenue": 490000.00,
+    "isVerified": true,
+    "joinedAt": "2022-01-15T00:00:00Z",
+    "contactEmail": "team@runfast.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 70.00,
+      "shipsFrom": "Seattle, WA"
+    },
+    "socialLinks": {
+      "website": "https://runfast.com",
+      "strava": "RunFastStore"
+    }
+  },
+  {
+    "storeName": "PixelBox",
+    "description": "Cameras, lenses, and photography equipment",
+    "logoUrl": "/images/sellers/pixelbox.png",
+    "rating": 4.7,
+    "totalSales": 3800,
+    "totalRevenue": 1150000.00,
+    "isVerified": true,
+    "joinedAt": "2021-05-20T00:00:00Z",
+    "contactEmail": "hello@pixelbox.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 100.00,
+      "shipsFrom": "New York, NY"
+    },
+    "socialLinks": {
+      "website": "https://pixelbox.com",
+      "instagram": "@pixelboxphotos"
+    }
+  },
+  {
+    "storeName": "EcoNest",
+    "description": "Sustainable, eco-friendly lifestyle products",
+    "logoUrl": "/images/sellers/econest.png",
+    "rating": 4.6,
+    "totalSales": 4200,
+    "totalRevenue": 210000.00,
+    "isVerified": true,
+    "joinedAt": "2022-03-30T00:00:00Z",
+    "contactEmail": "green@econest.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 30.00,
+      "shipsFrom": "Portland, OR"
+    },
+    "socialLinks": {
+      "website": "https://econest.com",
+      "instagram": "@econest",
+      "tiktok": "@econestlife"
+    }
+  },
+  {
+    "storeName": "VoltTech",
+    "description": "Budget and mid-range electronics for everyday use",
+    "logoUrl": "/images/sellers/volttech.png",
+    "rating": 4.1,
+    "totalSales": 19000,
+    "totalRevenue": 1600000.00,
+    "isVerified": true,
+    "joinedAt": "2020-08-01T00:00:00Z",
+    "contactEmail": "service@volttech.com",
+    "policies": {
+      "returnDays": 15,
+      "freeShippingAbove": 60.00,
+      "shipsFrom": "Las Vegas, NV"
+    },
+    "socialLinks": {
+      "website": "https://volttech.com",
+      "twitter": "@VoltTechDeals"
+    }
+  },
+  {
+    "storeName": "PetParadise",
+    "description": "Everything your pets need and love",
+    "logoUrl": "/images/sellers/petparadise.png",
+    "rating": 4.8,
+    "totalSales": 14500,
+    "totalRevenue": 430000.00,
+    "isVerified": true,
+    "joinedAt": "2021-10-05T00:00:00Z",
+    "contactEmail": "woof@petparadise.com",
+    "policies": {
+      "returnDays": 30,
+      "freeShippingAbove": 40.00,
+      "shipsFrom": "Denver, CO"
+    },
+    "socialLinks": {
+      "website": "https://petparadise.com",
+      "instagram": "@petparadise",
+      "facebook": "PetParadiseStore"
+    }
+  }
+]

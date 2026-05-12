@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@email.com",
+    "passwordHash": "$2b$12$hashed_password_001",
+    "phone": "+1-555-0101",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 1250,
+    "createdAt": "2023-01-15T00:00:00Z",
+    "lastLoginAt": "2024-11-20T00:00:00Z",
+    "address": {
+      "street": "14 Maple Avenue",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipCode": "10001"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Bob Martinez",
+    "email": "bob.martinez@email.com",
+    "passwordHash": "$2b$12$hashed_password_002",
+    "phone": "+1-555-0102",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 870,
+    "createdAt": "2023-02-20T00:00:00Z",
+    "lastLoginAt": "2024-11-18T00:00:00Z",
+    "address": {
+      "street": "7 Sunset Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "90001"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  },
+  {
+    "name": "Clara Chen",
+    "email": "clara.chen@email.com",
+    "passwordHash": "$2b$12$hashed_password_003",
+    "phone": "+1-555-0103",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 3400,
+    "createdAt": "2022-11-05T00:00:00Z",
+    "lastLoginAt": "2024-11-21T00:00:00Z",
+    "address": {
+      "street": "88 Orchid Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "94102"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "zh",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "David Kim",
+    "email": "david.kim@email.com",
+    "passwordHash": "$2b$12$hashed_password_004",
+    "phone": "+1-555-0104",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 520,
+    "createdAt": "2023-07-11T00:00:00Z",
+    "lastLoginAt": "2024-10-30T00:00:00Z",
+    "address": {
+      "street": "23 Elm Road",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "zipCode": "60601"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Emma Wilson",
+    "email": "emma.wilson@email.com",
+    "passwordHash": "$2b$12$hashed_password_005",
+    "phone": "+1-555-0105",
+    "role": "customer",
+    "isActive": false,
+    "loyaltyPoints": 150,
+    "createdAt": "2023-05-22T00:00:00Z",
+    "lastLoginAt": "2024-06-10T00:00:00Z",
+    "address": {
+      "street": "5 Birch Lane",
+      "city": "Houston",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "77001"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  },
+  {
+    "name": "Frank Nguyen",
+    "email": "frank.nguyen@email.com",
+    "passwordHash": "$2b$12$hashed_password_006",
+    "phone": "+1-555-0106",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 2100,
+    "createdAt": "2022-08-14T00:00:00Z",
+    "lastLoginAt": "2024-11-19T00:00:00Z",
+    "address": {
+      "street": "101 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "zipCode": "98101"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "vi",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Grace Patel",
+    "email": "grace.patel@email.com",
+    "passwordHash": "$2b$12$hashed_password_007",
+    "phone": "+1-555-0107",
+    "role": "seller",
+    "isActive": true,
+    "loyaltyPoints": 600,
+    "createdAt": "2022-03-09T00:00:00Z",
+    "lastLoginAt": "2024-11-20T00:00:00Z",
+    "address": {
+      "street": "34 Lotus Drive",
+      "city": "Phoenix",
+      "state": "AZ",
+      "country": "USA",
+      "zipCode": "85001"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Henry Brooks",
+    "email": "henry.brooks@email.com",
+    "passwordHash": "$2b$12$hashed_password_008",
+    "phone": "+1-555-0108",
+    "role": "seller",
+    "isActive": true,
+    "loyaltyPoints": 300,
+    "createdAt": "2021-12-01T00:00:00Z",
+    "lastLoginAt": "2024-11-15T00:00:00Z",
+    "address": {
+      "street": "90 Cedar Court",
+      "city": "Dallas",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "75201"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  },
+  {
+    "name": "Irene Rossi",
+    "email": "irene.rossi@email.com",
+    "passwordHash": "$2b$12$hashed_password_009",
+    "phone": "+39-555-0109",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 980,
+    "createdAt": "2023-09-30T00:00:00Z",
+    "lastLoginAt": "2024-11-17T00:00:00Z",
+    "address": {
+      "street": "Via Roma 12",
+      "city": "Milan",
+      "state": "Lombardia",
+      "country": "Italy",
+      "zipCode": "20100"
+    },
+    "preferences": {
+      "currency": "EUR",
+      "language": "it",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Jake Thompson",
+    "email": "jake.thompson@email.com",
+    "passwordHash": "$2b$12$hashed_password_010",
+    "phone": "+1-555-0110",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 4500,
+    "createdAt": "2022-01-20T00:00:00Z",
+    "lastLoginAt": "2024-11-21T00:00:00Z",
+    "address": {
+      "street": "200 Oak Boulevard",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "zipCode": "02101"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Karen Lee",
+    "email": "karen.lee@email.com",
+    "passwordHash": "$2b$12$hashed_password_011",
+    "phone": "+1-555-0111",
+    "role": "seller",
+    "isActive": true,
+    "loyaltyPoints": 750,
+    "createdAt": "2021-07-15T00:00:00Z",
+    "lastLoginAt": "2024-11-20T00:00:00Z",
+    "address": {
+      "street": "12 Magnolia Way",
+      "city": "Portland",
+      "state": "OR",
+      "country": "USA",
+      "zipCode": "97201"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Liam O'Brien",
+    "email": "liam.obrien@email.com",
+    "passwordHash": "$2b$12$hashed_password_012",
+    "phone": "+353-555-0112",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 290,
+    "createdAt": "2023-11-01T00:00:00Z",
+    "lastLoginAt": "2024-11-10T00:00:00Z",
+    "address": {
+      "street": "8 Clover Lane",
+      "city": "Dublin",
+      "state": "Leinster",
+      "country": "Ireland",
+      "zipCode": "D01"
+    },
+    "preferences": {
+      "currency": "EUR",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  },
+  {
+    "name": "Mia Santos",
+    "email": "mia.santos@email.com",
+    "passwordHash": "$2b$12$hashed_password_013",
+    "phone": "+1-555-0113",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 1800,
+    "createdAt": "2022-06-18T00:00:00Z",
+    "lastLoginAt": "2024-11-16T00:00:00Z",
+    "address": {
+      "street": "330 Hibiscus Road",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "zipCode": "33101"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "es",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Nathan Russo",
+    "email": "nathan.russo@email.com",
+    "passwordHash": "$2b$12$hashed_password_014",
+    "phone": "+1-555-0114",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 60,
+    "createdAt": "2024-01-05T00:00:00Z",
+    "lastLoginAt": "2024-11-01T00:00:00Z",
+    "address": {
+      "street": "55 Walnut Street",
+      "city": "Denver",
+      "state": "CO",
+      "country": "USA",
+      "zipCode": "80201"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Olivia Wang",
+    "email": "olivia.wang@email.com",
+    "passwordHash": "$2b$12$hashed_password_015",
+    "phone": "+1-555-0115",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 3100,
+    "createdAt": "2022-04-25T00:00:00Z",
+    "lastLoginAt": "2024-11-21T00:00:00Z",
+    "address": {
+      "street": "67 Jade Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "73301"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Paul Evans",
+    "email": "paul.evans@email.com",
+    "passwordHash": "$2b$12$hashed_password_016",
+    "phone": "+44-555-0116",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 1400,
+    "createdAt": "2023-03-14T00:00:00Z",
+    "lastLoginAt": "2024-11-14T00:00:00Z",
+    "address": {
+      "street": "19 Baker Street",
+      "city": "London",
+      "state": "England",
+      "country": "UK",
+      "zipCode": "W1U"
+    },
+    "preferences": {
+      "currency": "GBP",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  },
+  {
+    "name": "Quinn Murphy",
+    "email": "quinn.murphy@email.com",
+    "passwordHash": "$2b$12$hashed_password_017",
+    "phone": "+1-555-0117",
+    "role": "customer",
+    "isActive": false,
+    "loyaltyPoints": 0,
+    "createdAt": "2024-03-22T00:00:00Z",
+    "lastLoginAt": "2024-04-01T00:00:00Z",
+    "address": {
+      "street": "3 Redwood Circle",
+      "city": "San Diego",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "92101"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  },
+  {
+    "name": "Rachel Scott",
+    "email": "rachel.scott@email.com",
+    "passwordHash": "$2b$12$hashed_password_018",
+    "phone": "+1-555-0118",
+    "role": "seller",
+    "isActive": true,
+    "loyaltyPoints": 430,
+    "createdAt": "2021-09-10T00:00:00Z",
+    "lastLoginAt": "2024-11-20T00:00:00Z",
+    "address": {
+      "street": "77 Aspen Trail",
+      "city": "Nashville",
+      "state": "TN",
+      "country": "USA",
+      "zipCode": "37201"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Sam Hernandez",
+    "email": "sam.hernandez@email.com",
+    "passwordHash": "$2b$12$hashed_password_019",
+    "phone": "+1-555-0119",
+    "role": "customer",
+    "isActive": true,
+    "loyaltyPoints": 2700,
+    "createdAt": "2022-10-03T00:00:00Z",
+    "lastLoginAt": "2024-11-19T00:00:00Z",
+    "address": {
+      "street": "62 Cactus Road",
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "78201"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "es",
+      "newsletterSubscribed": true
+    }
+  },
+  {
+    "name": "Admin SuperUser",
+    "email": "admin@ecommerce.com",
+    "passwordHash": "$2b$12$hashed_password_020",
+    "phone": "+1-555-0000",
+    "role": "admin",
+    "isActive": true,
+    "loyaltyPoints": 0,
+    "createdAt": "2021-01-01T00:00:00Z",
+    "lastLoginAt": "2024-11-21T00:00:00Z",
+    "address": {
+      "street": "1 Corporate Plaza",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipCode": "10001"
+    },
+    "preferences": {
+      "currency": "USD",
+      "language": "en",
+      "newsletterSubscribed": false
+    }
+  }
+]

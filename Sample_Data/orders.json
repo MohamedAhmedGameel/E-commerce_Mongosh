@@ -1,0 +1,923 @@
+[
+  {
+    "orderNumber": "ORD-2024-000001",
+    "userEmail": "alice.johnson@email.com",
+    "items": [
+      {
+        "productSku": "APL-IP16P-001",
+        "productName": "Apple iPhone 16 Pro",
+        "quantity": 1,
+        "unitPrice": 999.00,
+        "totalPrice": 999.00,
+        "variant": "Black Titanium / 256GB"
+      },
+      {
+        "productSku": "SNY-WH1000XM6",
+        "productName": "Sony WH-1000XM6 Wireless Headphones",
+        "quantity": 1,
+        "unitPrice": 349.99,
+        "totalPrice": 349.99,
+        "variant": "Midnight Black"
+      }
+    ],
+    "shippingAddress": {
+      "street": "14 Maple Avenue",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipCode": "10001"
+    },
+    "billingAddress": {
+      "street": "14 Maple Avenue",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipCode": "10001"
+    },
+    "subtotal": 1348.99,
+    "shippingCost": 0.00,
+    "taxAmount": 107.92,
+    "discountAmount": 134.90,
+    "couponCode": "SAVE20",
+    "totalAmount": 1322.01,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK1234567890",
+    "estimatedDelivery": "2024-10-10T00:00:00Z",
+    "deliveredAt": "2024-10-09T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-10-01T00:00:00Z",
+    "updatedAt": "2024-10-09T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000002",
+    "userEmail": "bob.martinez@email.com",
+    "items": [
+      {
+        "productSku": "APL-MBP14-M4",
+        "productName": "Apple MacBook Pro 14-inch M4",
+        "quantity": 1,
+        "unitPrice": 1599.00,
+        "totalPrice": 1599.00,
+        "variant": "M4 Pro / 24GB / 512GB"
+      },
+      {
+        "productSku": "SAM-T9-2TB",
+        "productName": "Samsung T9 Portable SSD 2TB",
+        "quantity": 2,
+        "unitPrice": 179.99,
+        "totalPrice": 359.98,
+        "variant": "Black / 2TB"
+      }
+    ],
+    "shippingAddress": {
+      "street": "7 Sunset Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "90001"
+    },
+    "billingAddress": {
+      "street": "7 Sunset Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "90001"
+    },
+    "subtotal": 1958.98,
+    "shippingCost": 0.00,
+    "taxAmount": 156.72,
+    "discountAmount": 50.00,
+    "couponCode": "TECH50",
+    "totalAmount": 2065.70,
+    "paymentMethod": "paypal",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "express",
+    "trackingNumber": "TRK2345678901",
+    "estimatedDelivery": "2024-10-20T00:00:00Z",
+    "deliveredAt": "2024-10-19T00:00:00Z",
+    "notes": "Please leave at front door.",
+    "createdAt": "2024-10-12T00:00:00Z",
+    "updatedAt": "2024-10-19T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000003",
+    "userEmail": "clara.chen@email.com",
+    "items": [
+      {
+        "productSku": "SF-WDRESS-001",
+        "productName": "Women's Floral Wrap Maxi Dress",
+        "quantity": 2,
+        "unitPrice": 79.99,
+        "totalPrice": 159.98,
+        "variant": "Blue Floral / M"
+      },
+      {
+        "productSku": "GB-VCS-30ML",
+        "productName": "GlowBeauty Vitamin C Brightening Serum 30ml",
+        "quantity": 3,
+        "unitPrice": 39.99,
+        "totalPrice": 119.97,
+        "variant": "30ml"
+      },
+      {
+        "productSku": "NEST-BTCANDLE-8",
+        "productName": "Nest New York Black Tulip Candle 8.1oz",
+        "quantity": 1,
+        "unitPrice": 48.00,
+        "totalPrice": 48.00,
+        "variant": "8.1oz"
+      }
+    ],
+    "shippingAddress": {
+      "street": "88 Orchid Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "94102"
+    },
+    "billingAddress": {
+      "street": "88 Orchid Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "94102"
+    },
+    "subtotal": 327.95,
+    "shippingCost": 0.00,
+    "taxAmount": 26.24,
+    "discountAmount": 65.59,
+    "couponCode": "VIP25",
+    "totalAmount": 288.60,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK3456789012",
+    "estimatedDelivery": "2024-09-25T00:00:00Z",
+    "deliveredAt": "2024-09-23T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-09-15T00:00:00Z",
+    "updatedAt": "2024-09-23T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000004",
+    "userEmail": "david.kim@email.com",
+    "items": [
+      {
+        "productSku": "SNY-PS5-DISC",
+        "productName": "Sony PlayStation 5 Console",
+        "quantity": 1,
+        "unitPrice": 499.99,
+        "totalPrice": 499.99,
+        "variant": "Standard (Disc)"
+      }
+    ],
+    "shippingAddress": {
+      "street": "23 Elm Road",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "zipCode": "60601"
+    },
+    "billingAddress": {
+      "street": "23 Elm Road",
+      "city": "Chicago",
+      "state": "IL",
+      "country": "USA",
+      "zipCode": "60601"
+    },
+    "subtotal": 499.99,
+    "shippingCost": 9.99,
+    "taxAmount": 40.00,
+    "discountAmount": 100.00,
+    "couponCode": "GAME100",
+    "totalAmount": 449.98,
+    "paymentMethod": "debit_card",
+    "paymentStatus": "paid",
+    "status": "shipped",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK4567890123",
+    "estimatedDelivery": "2024-11-28T00:00:00Z",
+    "deliveredAt": null,
+    "notes": "Gift — do not include invoice.",
+    "createdAt": "2024-11-20T00:00:00Z",
+    "updatedAt": "2024-11-21T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000005",
+    "userEmail": "frank.nguyen@email.com",
+    "items": [
+      {
+        "productSku": "KA-ARTISAN-5QT",
+        "productName": "KitchenAid Artisan Series 5-Qt Stand Mixer",
+        "quantity": 1,
+        "unitPrice": 379.99,
+        "totalPrice": 379.99,
+        "variant": "Empire Red"
+      },
+      {
+        "productSku": "ECO-CBSET-3PC",
+        "productName": "Eco Bamboo Cutting Board Set (3-Piece)",
+        "quantity": 2,
+        "unitPrice": 34.99,
+        "totalPrice": 69.98,
+        "variant": "3-Piece Set"
+      }
+    ],
+    "shippingAddress": {
+      "street": "101 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "zipCode": "98101"
+    },
+    "billingAddress": {
+      "street": "101 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "zipCode": "98101"
+    },
+    "subtotal": 449.97,
+    "shippingCost": 0.00,
+    "taxAmount": 36.00,
+    "discountAmount": 45.00,
+    "couponCode": "HOME10",
+    "totalAmount": 440.97,
+    "paymentMethod": "paypal",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK5678901234",
+    "estimatedDelivery": "2024-08-15T00:00:00Z",
+    "deliveredAt": "2024-08-13T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-08-05T00:00:00Z",
+    "updatedAt": "2024-08-13T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000006",
+    "userEmail": "irene.rossi@email.com",
+    "items": [
+      {
+        "productSku": "LIT-ATOMHAB-PB",
+        "productName": "Atomic Habits by James Clear",
+        "quantity": 1,
+        "unitPrice": 16.99,
+        "totalPrice": 16.99,
+        "variant": "Paperback"
+      },
+      {
+        "productSku": "FTS-RBAND-5PK",
+        "productName": "Fit Simplify Resistance Band Set (5-Pack)",
+        "quantity": 1,
+        "unitPrice": 19.99,
+        "totalPrice": 19.99,
+        "variant": "Latex"
+      }
+    ],
+    "shippingAddress": {
+      "street": "Via Roma 12",
+      "city": "Milan",
+      "state": "Lombardia",
+      "country": "Italy",
+      "zipCode": "20100"
+    },
+    "billingAddress": {
+      "street": "Via Roma 12",
+      "city": "Milan",
+      "state": "Lombardia",
+      "country": "Italy",
+      "zipCode": "20100"
+    },
+    "subtotal": 36.98,
+    "shippingCost": 12.99,
+    "taxAmount": 2.96,
+    "discountAmount": 5.00,
+    "couponCode": "BOOKS5",
+    "totalAmount": 47.93,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "international_standard",
+    "trackingNumber": "TRK6789012345",
+    "estimatedDelivery": "2024-10-22T00:00:00Z",
+    "deliveredAt": "2024-10-20T00:00:00Z",
+    "notes": "International shipment to Italy.",
+    "createdAt": "2024-10-05T00:00:00Z",
+    "updatedAt": "2024-10-20T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000007",
+    "userEmail": "jake.thompson@email.com",
+    "items": [
+      {
+        "productSku": "SAM-GS24U-001",
+        "productName": "Samsung Galaxy S24 Ultra",
+        "quantity": 1,
+        "unitPrice": 1199.99,
+        "totalPrice": 1199.99,
+        "variant": "Titanium Black / 256GB"
+      },
+      {
+        "productSku": "BOSE-QCUE-001",
+        "productName": "Bose QuietComfort Ultra Earbuds",
+        "quantity": 1,
+        "unitPrice": 279.00,
+        "totalPrice": 279.00,
+        "variant": "Black"
+      }
+    ],
+    "shippingAddress": {
+      "street": "200 Oak Boulevard",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "zipCode": "02101"
+    },
+    "billingAddress": {
+      "street": "200 Oak Boulevard",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "zipCode": "02101"
+    },
+    "subtotal": 1478.99,
+    "shippingCost": 0.00,
+    "taxAmount": 118.32,
+    "discountAmount": 0.00,
+    "couponCode": null,
+    "totalAmount": 1597.31,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "express",
+    "trackingNumber": "TRK7890123456",
+    "estimatedDelivery": "2024-07-18T00:00:00Z",
+    "deliveredAt": "2024-07-17T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-07-10T00:00:00Z",
+    "updatedAt": "2024-07-17T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000008",
+    "userEmail": "mia.santos@email.com",
+    "items": [
+      {
+        "productSku": "GB-VCS-30ML",
+        "productName": "GlowBeauty Vitamin C Brightening Serum 30ml",
+        "quantity": 2,
+        "unitPrice": 39.99,
+        "totalPrice": 79.98,
+        "variant": "30ml"
+      },
+      {
+        "productSku": "NEST-BTCANDLE-8",
+        "productName": "Nest New York Black Tulip Candle 8.1oz",
+        "quantity": 2,
+        "unitPrice": 48.00,
+        "totalPrice": 96.00,
+        "variant": "8.1oz"
+      }
+    ],
+    "shippingAddress": {
+      "street": "330 Hibiscus Road",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "zipCode": "33101"
+    },
+    "billingAddress": {
+      "street": "330 Hibiscus Road",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "zipCode": "33101"
+    },
+    "subtotal": 175.98,
+    "shippingCost": 0.00,
+    "taxAmount": 14.08,
+    "discountAmount": 35.20,
+    "couponCode": "BEAUTY20",
+    "totalAmount": 154.86,
+    "paymentMethod": "paypal",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK8901234567",
+    "estimatedDelivery": "2024-11-12T00:00:00Z",
+    "deliveredAt": "2024-11-11T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-11-02T00:00:00Z",
+    "updatedAt": "2024-11-11T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000009",
+    "userEmail": "olivia.wang@email.com",
+    "items": [
+      {
+        "productSku": "MAN-PRO-6MM",
+        "productName": "Manduka PRO Yoga Mat 6mm",
+        "quantity": 1,
+        "unitPrice": 120.00,
+        "totalPrice": 120.00,
+        "variant": "Black / Standard"
+      },
+      {
+        "productSku": "FTS-RBAND-5PK",
+        "productName": "Fit Simplify Resistance Band Set (5-Pack)",
+        "quantity": 2,
+        "unitPrice": 19.99,
+        "totalPrice": 39.98,
+        "variant": "Latex"
+      },
+      {
+        "productSku": "NKE-PEG41-001",
+        "productName": "Nike Pegasus 41 Running Shoes",
+        "quantity": 1,
+        "unitPrice": 130.00,
+        "totalPrice": 130.00,
+        "variant": "Women's 8 / Pink-White"
+      }
+    ],
+    "shippingAddress": {
+      "street": "67 Jade Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "73301"
+    },
+    "billingAddress": {
+      "street": "67 Jade Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "73301"
+    },
+    "subtotal": 289.98,
+    "shippingCost": 0.00,
+    "taxAmount": 23.20,
+    "discountAmount": 43.50,
+    "couponCode": "SPORT15",
+    "totalAmount": 269.68,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK9012345678",
+    "estimatedDelivery": "2024-09-15T00:00:00Z",
+    "deliveredAt": "2024-09-14T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-09-05T00:00:00Z",
+    "updatedAt": "2024-09-14T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000010",
+    "userEmail": "sam.hernandez@email.com",
+    "items": [
+      {
+        "productSku": "GOO-PX9P-001",
+        "productName": "Google Pixel 9 Pro",
+        "quantity": 1,
+        "unitPrice": 999.00,
+        "totalPrice": 999.00,
+        "variant": "Obsidian / 256GB"
+      },
+      {
+        "productSku": "SNY-WH1000XM6",
+        "productName": "Sony WH-1000XM6 Wireless Headphones",
+        "quantity": 1,
+        "unitPrice": 349.99,
+        "totalPrice": 349.99,
+        "variant": "Midnight Blue"
+      }
+    ],
+    "shippingAddress": {
+      "street": "62 Cactus Road",
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "78201"
+    },
+    "billingAddress": {
+      "street": "62 Cactus Road",
+      "city": "San Antonio",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "78201"
+    },
+    "subtotal": 1348.99,
+    "shippingCost": 0.00,
+    "taxAmount": 107.92,
+    "discountAmount": 0.00,
+    "couponCode": null,
+    "totalAmount": 1456.91,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "express",
+    "trackingNumber": "TRK0123456789",
+    "estimatedDelivery": "2024-11-05T00:00:00Z",
+    "deliveredAt": "2024-11-04T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-10-28T00:00:00Z",
+    "updatedAt": "2024-11-04T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000011",
+    "userEmail": "paul.evans@email.com",
+    "items": [
+      {
+        "productSku": "SF-MCHINO-001",
+        "productName": "Men's Classic Slim Fit Chino Pants",
+        "quantity": 3,
+        "unitPrice": 59.99,
+        "totalPrice": 179.97,
+        "variant": "Navy Blue / 32x32"
+      }
+    ],
+    "shippingAddress": {
+      "street": "19 Baker Street",
+      "city": "London",
+      "state": "England",
+      "country": "UK",
+      "zipCode": "W1U"
+    },
+    "billingAddress": {
+      "street": "19 Baker Street",
+      "city": "London",
+      "state": "England",
+      "country": "UK",
+      "zipCode": "W1U"
+    },
+    "subtotal": 179.97,
+    "shippingCost": 18.00,
+    "taxAmount": 14.40,
+    "discountAmount": 27.00,
+    "couponCode": "SUMMER15",
+    "totalAmount": 185.37,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "international_express",
+    "trackingNumber": "TRK1122334455",
+    "estimatedDelivery": "2024-08-20T00:00:00Z",
+    "deliveredAt": "2024-08-18T00:00:00Z",
+    "notes": "UK delivery.",
+    "createdAt": "2024-08-10T00:00:00Z",
+    "updatedAt": "2024-08-18T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000012",
+    "userEmail": "alice.johnson@email.com",
+    "items": [
+      {
+        "productSku": "LGO-TECH-42151",
+        "productName": "LEGO Technic Bugatti Bolide 42151",
+        "quantity": 1,
+        "unitPrice": 69.99,
+        "totalPrice": 69.99,
+        "variant": "Standard Box"
+      },
+      {
+        "productSku": "LIT-ATOMHAB-PB",
+        "productName": "Atomic Habits by James Clear",
+        "quantity": 2,
+        "unitPrice": 16.99,
+        "totalPrice": 33.98,
+        "variant": "Paperback"
+      }
+    ],
+    "shippingAddress": {
+      "street": "14 Maple Avenue",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipCode": "10001"
+    },
+    "billingAddress": {
+      "street": "14 Maple Avenue",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA",
+      "zipCode": "10001"
+    },
+    "subtotal": 103.97,
+    "shippingCost": 0.00,
+    "taxAmount": 8.32,
+    "discountAmount": 15.00,
+    "couponCode": "FIRSTORDER",
+    "totalAmount": 97.29,
+    "paymentMethod": "paypal",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK2233445566",
+    "estimatedDelivery": "2024-11-18T00:00:00Z",
+    "deliveredAt": "2024-11-16T00:00:00Z",
+    "notes": "Birthday gift for my son.",
+    "createdAt": "2024-11-08T00:00:00Z",
+    "updatedAt": "2024-11-16T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000013",
+    "userEmail": "jake.thompson@email.com",
+    "items": [
+      {
+        "productSku": "DYS-TP07-001",
+        "productName": "Dyson Purifier Cool TP07 Air Purifier & Fan",
+        "quantity": 1,
+        "unitPrice": 549.99,
+        "totalPrice": 549.99,
+        "variant": "White/Silver"
+      }
+    ],
+    "shippingAddress": {
+      "street": "200 Oak Boulevard",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "zipCode": "02101"
+    },
+    "billingAddress": {
+      "street": "200 Oak Boulevard",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA",
+      "zipCode": "02101"
+    },
+    "subtotal": 549.99,
+    "shippingCost": 0.00,
+    "taxAmount": 44.00,
+    "discountAmount": 0.00,
+    "couponCode": null,
+    "totalAmount": 593.99,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "confirmed",
+    "shippingMethod": "standard",
+    "trackingNumber": null,
+    "estimatedDelivery": "2024-11-30T00:00:00Z",
+    "deliveredAt": null,
+    "notes": "",
+    "createdAt": "2024-11-18T00:00:00Z",
+    "updatedAt": "2024-11-18T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000014",
+    "userEmail": "clara.chen@email.com",
+    "items": [
+      {
+        "productSku": "APL-MBP14-M4",
+        "productName": "Apple MacBook Pro 14-inch M4",
+        "quantity": 1,
+        "unitPrice": 1599.00,
+        "totalPrice": 1599.00,
+        "variant": "M4 Pro / 24GB / 1TB"
+      }
+    ],
+    "shippingAddress": {
+      "street": "88 Orchid Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "94102"
+    },
+    "billingAddress": {
+      "street": "88 Orchid Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "94102"
+    },
+    "subtotal": 1599.00,
+    "shippingCost": 0.00,
+    "taxAmount": 127.92,
+    "discountAmount": 399.75,
+    "couponCode": "HOLIDAY30",
+    "totalAmount": 1327.17,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "pending",
+    "shippingMethod": "express",
+    "trackingNumber": null,
+    "estimatedDelivery": "2024-11-30T00:00:00Z",
+    "deliveredAt": null,
+    "notes": "Please use sturdy packaging.",
+    "createdAt": "2024-11-21T00:00:00Z",
+    "updatedAt": "2024-11-21T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000015",
+    "userEmail": "frank.nguyen@email.com",
+    "items": [
+      {
+        "productSku": "SNY-WH1000XM6",
+        "productName": "Sony WH-1000XM6 Wireless Headphones",
+        "quantity": 1,
+        "unitPrice": 349.99,
+        "totalPrice": 349.99,
+        "variant": "Platinum Silver"
+      },
+      {
+        "productSku": "BOSE-QCUE-001",
+        "productName": "Bose QuietComfort Ultra Earbuds",
+        "quantity": 1,
+        "unitPrice": 279.00,
+        "totalPrice": 279.00,
+        "variant": "White Smoke"
+      }
+    ],
+    "shippingAddress": {
+      "street": "101 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "zipCode": "98101"
+    },
+    "billingAddress": {
+      "street": "101 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA",
+      "zipCode": "98101"
+    },
+    "subtotal": 628.99,
+    "shippingCost": 0.00,
+    "taxAmount": 50.32,
+    "discountAmount": 0.00,
+    "couponCode": null,
+    "totalAmount": 679.31,
+    "paymentMethod": "debit_card",
+    "paymentStatus": "paid",
+    "status": "cancelled",
+    "shippingMethod": "standard",
+    "trackingNumber": null,
+    "estimatedDelivery": null,
+    "deliveredAt": null,
+    "cancellationReason": "Customer changed their mind",
+    "notes": "",
+    "createdAt": "2024-10-15T00:00:00Z",
+    "updatedAt": "2024-10-15T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000016",
+    "userEmail": "karen.lee@email.com",
+    "items": [
+      {
+        "productSku": "SF-WDRESS-001",
+        "productName": "Women's Floral Wrap Maxi Dress",
+        "quantity": 4,
+        "unitPrice": 79.99,
+        "totalPrice": 319.96,
+        "variant": "Pink Floral / S"
+      },
+      {
+        "productSku": "SF-MCHINO-001",
+        "productName": "Men's Classic Slim Fit Chino Pants",
+        "quantity": 4,
+        "unitPrice": 59.99,
+        "totalPrice": 239.96,
+        "variant": "Khaki / 32x32"
+      }
+    ],
+    "shippingAddress": {
+      "street": "12 Magnolia Way",
+      "city": "Portland",
+      "state": "OR",
+      "country": "USA",
+      "zipCode": "97201"
+    },
+    "billingAddress": {
+      "street": "12 Magnolia Way",
+      "city": "Portland",
+      "state": "OR",
+      "country": "USA",
+      "zipCode": "97201"
+    },
+    "subtotal": 559.92,
+    "shippingCost": 0.00,
+    "taxAmount": 44.79,
+    "discountAmount": 83.99,
+    "couponCode": "SUMMER15",
+    "totalAmount": 520.72,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "standard",
+    "trackingNumber": "TRK3344556677",
+    "estimatedDelivery": "2024-09-02T00:00:00Z",
+    "deliveredAt": "2024-08-31T00:00:00Z",
+    "notes": "Seller order (for store inventory review).",
+    "createdAt": "2024-08-22T00:00:00Z",
+    "updatedAt": "2024-08-31T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000017",
+    "userEmail": "bob.martinez@email.com",
+    "items": [
+      {
+        "productSku": "APL-IP16P-001",
+        "productName": "Apple iPhone 16 Pro",
+        "quantity": 1,
+        "unitPrice": 999.00,
+        "totalPrice": 999.00,
+        "variant": "White Titanium / 128GB"
+      }
+    ],
+    "shippingAddress": {
+      "street": "7 Sunset Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "90001"
+    },
+    "billingAddress": {
+      "street": "7 Sunset Blvd",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA",
+      "zipCode": "90001"
+    },
+    "subtotal": 999.00,
+    "shippingCost": 0.00,
+    "taxAmount": 79.92,
+    "discountAmount": 99.90,
+    "couponCode": "WELCOME10",
+    "totalAmount": 979.02,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "express",
+    "trackingNumber": "TRK4455667788",
+    "estimatedDelivery": "2024-11-10T00:00:00Z",
+    "deliveredAt": "2024-11-09T00:00:00Z",
+    "notes": "",
+    "createdAt": "2024-11-01T00:00:00Z",
+    "updatedAt": "2024-11-09T00:00:00Z"
+  },
+  {
+    "orderNumber": "ORD-2024-000018",
+    "userEmail": "olivia.wang@email.com",
+    "items": [
+      {
+        "productSku": "SAM-GS24U-001",
+        "productName": "Samsung Galaxy S24 Ultra",
+        "quantity": 1,
+        "unitPrice": 1199.99,
+        "totalPrice": 1199.99,
+        "variant": "Titanium Violet / 512GB"
+      },
+      {
+        "productSku": "APL-MBP14-M4",
+        "productName": "Apple MacBook Pro 14-inch M4",
+        "quantity": 1,
+        "unitPrice": 1599.00,
+        "totalPrice": 1599.00,
+        "variant": "M4 / 16GB / 512GB"
+      },
+      {
+        "productSku": "SNY-WH1000XM6",
+        "productName": "Sony WH-1000XM6 Wireless Headphones",
+        "quantity": 1,
+        "unitPrice": 349.99,
+        "totalPrice": 349.99,
+        "variant": "Midnight Black"
+      }
+    ],
+    "shippingAddress": {
+      "street": "67 Jade Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "73301"
+    },
+    "billingAddress": {
+      "street": "67 Jade Avenue",
+      "city": "Austin",
+      "state": "TX",
+      "country": "USA",
+      "zipCode": "73301"
+    },
+    "subtotal": 3148.98,
+    "shippingCost": 0.00,
+    "taxAmount": 251.92,
+    "discountAmount": 787.25,
+    "couponCode": "VIP25",
+    "totalAmount": 2613.65,
+    "paymentMethod": "credit_card",
+    "paymentStatus": "paid",
+    "status": "delivered",
+    "shippingMethod": "express",
+    "trackingNumber": "TRK5566778899",
+    "estimatedDelivery": "2024-06-20T00:00:00Z",
+    "deliveredAt": "2024-06-19T00:00:00Z",
+    "notes": "Handle with care — fragile electronics.",
+    "createdAt": "2024-06-10T00:00:00Z",
+    "updatedAt": "2024-06-19T00:00:00Z"
+  }
+]

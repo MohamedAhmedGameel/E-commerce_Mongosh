@@ -1,0 +1,143 @@
+[
+  {
+    "userEmail": "alice.johnson@email.com",
+    "items": [
+      { "productSku": "LGO-TECH-42151", "productName": "LEGO Technic Bugatti Bolide 42151", "quantity": 1, "unitPrice": 69.99,  "variant": "Standard Box" },
+      { "productSku": "LIT-ATOMHAB-PB", "productName": "Atomic Habits by James Clear",         "quantity": 1, "unitPrice": 16.99,  "variant": "Hardcover"    }
+    ],
+    "totalItems": 2,
+    "subtotal": 86.98,
+    "updatedAt": "2024-11-20T00:00:00Z"
+  },
+  {
+    "userEmail": "bob.martinez@email.com",
+    "items": [
+      { "productSku": "APL-IP16P-001", "productName": "Apple iPhone 16 Pro", "quantity": 1, "unitPrice": 999.00, "variant": "Desert Titanium / 512GB" }
+    ],
+    "totalItems": 1,
+    "subtotal": 999.00,
+    "updatedAt": "2024-11-21T00:00:00Z"
+  },
+  {
+    "userEmail": "clara.chen@email.com",
+    "items": [
+      { "productSku": "GB-VCS-30ML", "productName": "GlowBeauty Vitamin C Brightening Serum 30ml", "quantity": 2, "unitPrice": 39.99, "variant": "50ml" }
+    ],
+    "totalItems": 2,
+    "subtotal": 79.98,
+    "updatedAt": "2024-11-19T00:00:00Z"
+  },
+  {
+    "userEmail": "david.kim@email.com",
+    "items": [
+      { "productSku": "SNY-PS5-DISC",  "productName": "Sony PlayStation 5 Console",        "quantity": 1, "unitPrice": 499.99, "variant": "Digital Edition" },
+      { "productSku": "LGO-TECH-42151","productName": "LEGO Technic Bugatti Bolide 42151", "quantity": 1, "unitPrice": 69.99,  "variant": "Gift Set"       }
+    ],
+    "totalItems": 2,
+    "subtotal": 569.98,
+    "updatedAt": "2024-11-21T00:00:00Z"
+  },
+  {
+    "userEmail": "frank.nguyen@email.com",
+    "items": [
+      { "productSku": "DYS-TP07-001", "productName": "Dyson Purifier Cool TP07 Air Purifier & Fan", "quantity": 1, "unitPrice": 549.99, "variant": "Iron/Blue" }
+    ],
+    "totalItems": 1,
+    "subtotal": 549.99,
+    "updatedAt": "2024-11-20T00:00:00Z"
+  },
+  {
+    "userEmail": "irene.rossi@email.com",
+    "items": [
+      { "productSku": "LIT-ATOMHAB-PB", "productName": "Atomic Habits by James Clear", "quantity": 3, "unitPrice": 16.99, "variant": "e-Book" }
+    ],
+    "totalItems": 3,
+    "subtotal": 50.97,
+    "updatedAt": "2024-11-18T00:00:00Z"
+  },
+  {
+    "userEmail": "jake.thompson@email.com",
+    "items": [
+      { "productSku": "APL-MBP14-M4", "productName": "Apple MacBook Pro 14-inch M4", "quantity": 1, "unitPrice": 1599.00, "variant": "M4 Max / 48GB / 1TB" }
+    ],
+    "totalItems": 1,
+    "subtotal": 1599.00,
+    "updatedAt": "2024-11-21T00:00:00Z"
+  },
+  {
+    "userEmail": "mia.santos@email.com",
+    "items": [
+      { "productSku": "SF-WDRESS-001",    "productName": "Women's Floral Wrap Maxi Dress",           "quantity": 1, "unitPrice": 79.99,  "variant": "Green Floral / M" },
+      { "productSku": "NEST-BTCANDLE-8",  "productName": "Nest New York Black Tulip Candle 8.1oz",   "quantity": 1, "unitPrice": 100.00, "variant": "21.2oz Lg"        }
+    ],
+    "totalItems": 2,
+    "subtotal": 179.99,
+    "updatedAt": "2024-11-17T00:00:00Z"
+  },
+  {
+    "userEmail": "olivia.wang@email.com",
+    "items": [
+      { "productSku": "MAN-PRO-6MM", "productName": "Manduka PRO Yoga Mat 6mm", "quantity": 1, "unitPrice": 140.00, "variant": "Amethyst / Long 85\"" }
+    ],
+    "totalItems": 1,
+    "subtotal": 140.00,
+    "updatedAt": "2024-11-21T00:00:00Z"
+  },
+  {
+    "userEmail": "sam.hernandez@email.com",
+    "items": [
+      { "productSku": "SAM-GS24U-001", "productName": "Samsung Galaxy S24 Ultra",              "quantity": 1, "unitPrice": 1319.99, "variant": "Titanium Yellow / 1TB" },
+      { "productSku": "SNY-WH1000XM6", "productName": "Sony WH-1000XM6 Wireless Headphones",  "quantity": 1, "unitPrice": 359.99,  "variant": "Midnight Blue"        }
+    ],
+    "totalItems": 2,
+    "subtotal": 1679.98,
+    "updatedAt": "2024-11-20T00:00:00Z"
+  },
+  {
+    "userEmail": "paul.evans@email.com",
+    "items": [
+      { "productSku": "NKE-PEG41-001", "productName": "Nike Pegasus 41 Running Shoes", "quantity": 2, "unitPrice": 130.00, "variant": "Men's 10 / Blue-Orange" }
+    ],
+    "totalItems": 2,
+    "subtotal": 260.00,
+    "updatedAt": "2024-11-15T00:00:00Z"
+  },
+  {
+    "userEmail": "karen.lee@email.com",
+    "items": [
+      { "productSku": "SF-MCHINO-001", "productName": "Men's Classic Slim Fit Chino Pants",  "quantity": 5, "unitPrice": 59.99, "variant": "Charcoal / 34x34" },
+      { "productSku": "SF-WDRESS-001", "productName": "Women's Floral Wrap Maxi Dress",       "quantity": 5, "unitPrice": 79.99, "variant": "Blue Floral / L"  }
+    ],
+    "totalItems": 10,
+    "subtotal": 699.90,
+    "updatedAt": "2024-11-20T00:00:00Z"
+  },
+  {
+    "userEmail": "liam.obrien@email.com",
+    "items": [
+      { "productSku": "FTS-RBAND-5PK", "productName": "Fit Simplify Resistance Band Set (5-Pack)", "quantity": 1, "unitPrice": 19.99, "variant": "Latex-Free" }
+    ],
+    "totalItems": 1,
+    "subtotal": 19.99,
+    "updatedAt": "2024-11-10T00:00:00Z"
+  },
+  {
+    "userEmail": "rachel.scott@email.com",
+    "items": [
+      { "productSku": "GB-VCS-30ML",   "productName": "GlowBeauty Vitamin C Brightening Serum 30ml", "quantity": 1, "unitPrice": 39.99, "variant": "30ml"   },
+      { "productSku": "NEST-BTCANDLE-8","productName": "Nest New York Black Tulip Candle 8.1oz",     "quantity": 2, "unitPrice": 48.00, "variant": "8.1oz"   }
+    ],
+    "totalItems": 3,
+    "subtotal": 135.99,
+    "updatedAt": "2024-11-16T00:00:00Z"
+  },
+  {
+    "userEmail": "nathan.russo@email.com",
+    "items": [
+      { "productSku": "KA-ARTISAN-5QT", "productName": "KitchenAid Artisan Series 5-Qt Stand Mixer", "quantity": 1, "unitPrice": 399.99, "variant": "Pistachio" }
+    ],
+    "totalItems": 1,
+    "subtotal": 399.99,
+    "updatedAt": "2024-11-21T00:00:00Z"
+  }
+]

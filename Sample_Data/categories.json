@@ -1,0 +1,152 @@
+[
+  {
+    "name": "Electronics",
+    "slug": "electronics",
+    "description": "Gadgets, devices, and electronic accessories",
+    "imageUrl": "/images/categories/electronics.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 1,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Smartphones",
+    "slug": "smartphones",
+    "description": "Latest smartphones from top brands",
+    "imageUrl": "/images/categories/smartphones.jpg",
+    "parentId": "electronics",
+    "isActive": true,
+    "sortOrder": 1,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Laptops & Computers",
+    "slug": "laptops-computers",
+    "description": "Laptops, desktops, and computing accessories",
+    "imageUrl": "/images/categories/laptops.jpg",
+    "parentId": "electronics",
+    "isActive": true,
+    "sortOrder": 2,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Audio & Headphones",
+    "slug": "audio-headphones",
+    "description": "Headphones, earbuds, speakers, and audio equipment",
+    "imageUrl": "/images/categories/audio.jpg",
+    "parentId": "electronics",
+    "isActive": true,
+    "sortOrder": 3,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Clothing & Fashion",
+    "slug": "clothing-fashion",
+    "description": "Apparel, shoes, and fashion accessories",
+    "imageUrl": "/images/categories/clothing.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 2,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Men's Clothing",
+    "slug": "mens-clothing",
+    "description": "T-shirts, trousers, jackets, and more for men",
+    "imageUrl": "/images/categories/mens.jpg",
+    "parentId": "clothing-fashion",
+    "isActive": true,
+    "sortOrder": 1,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Women's Clothing",
+    "slug": "womens-clothing",
+    "description": "Dresses, blouses, skirts, and more for women",
+    "imageUrl": "/images/categories/womens.jpg",
+    "parentId": "clothing-fashion",
+    "isActive": true,
+    "sortOrder": 2,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Home & Living",
+    "slug": "home-living",
+    "description": "Furniture, decor, kitchenware, and more",
+    "imageUrl": "/images/categories/home.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 3,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Kitchen & Dining",
+    "slug": "kitchen-dining",
+    "description": "Cookware, appliances, and dining accessories",
+    "imageUrl": "/images/categories/kitchen.jpg",
+    "parentId": "home-living",
+    "isActive": true,
+    "sortOrder": 1,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Books & Media",
+    "slug": "books-media",
+    "description": "Books, e-books, music, and educational content",
+    "imageUrl": "/images/categories/books.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 4,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Sports & Outdoors",
+    "slug": "sports-outdoors",
+    "description": "Equipment, apparel, and accessories for sports and outdoor activities",
+    "imageUrl": "/images/categories/sports.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 5,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Fitness Equipment",
+    "slug": "fitness-equipment",
+    "description": "Gym equipment, yoga, and home workout gear",
+    "imageUrl": "/images/categories/fitness.jpg",
+    "parentId": "sports-outdoors",
+    "isActive": true,
+    "sortOrder": 1,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Beauty & Personal Care",
+    "slug": "beauty-personal-care",
+    "description": "Skincare, haircare, fragrances, and grooming",
+    "imageUrl": "/images/categories/beauty.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 6,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Toys & Games",
+    "slug": "toys-games",
+    "description": "Toys, board games, and children's entertainment",
+    "imageUrl": "/images/categories/toys.jpg",
+    "parentId": null,
+    "isActive": true,
+    "sortOrder": 7,
+    "createdAt": "2021-01-01T00:00:00Z"
+  },
+  {
+    "name": "Gaming",
+    "slug": "gaming",
+    "description": "Consoles, games, and gaming peripherals",
+    "imageUrl": "/images/categories/gaming.jpg",
+    "parentId": "electronics",
+    "isActive": true,
+    "sortOrder": 4,
+    "createdAt": "2021-01-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "productSku": "APL-IP16P-128-BLK",
+    "productName": "Apple iPhone 16 Pro",
+    "variant": "Black Titanium / 128GB",
+    "warehouse": "WH-NY",
+    "quantity": 45,
+    "reserved": 5,
+    "available": 40,
+    "reorderLevel": 10,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "APL-IP16P-256-BLK",
+    "productName": "Apple iPhone 16 Pro",
+    "variant": "Black Titanium / 256GB",
+    "warehouse": "WH-NY",
+    "quantity": 38,
+    "reserved": 8,
+    "available": 30,
+    "reorderLevel": 10,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "SAM-GS24U-256-BLK",
+    "productName": "Samsung Galaxy S24 Ultra",
+    "variant": "Titanium Black / 256GB",
+    "warehouse": "WH-LA",
+    "quantity": 60,
+    "reserved": 12,
+    "available": 48,
+    "reorderLevel": 15,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "APL-MBP14-M4PRO-512",
+    "productName": "Apple MacBook Pro 14-inch M4",
+    "variant": "M4 Pro / 24GB / 512GB",
+    "warehouse": "WH-NY",
+    "quantity": 40,
+    "reserved": 6,
+    "available": 34,
+    "reorderLevel": 8,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "SNY-WH6-BLACK",
+    "productName": "Sony WH-1000XM6 Wireless Headphones",
+    "variant": "Midnight Black",
+    "warehouse": "WH-CHI",
+    "quantity": 120,
+    "reserved": 20,
+    "available": 100,
+    "reorderLevel": 30,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "SF-MCH-KHK-3232",
+    "productName": "Men's Classic Slim Fit Chino Pants",
+    "variant": "Khaki / 32x32",
+    "warehouse": "WH-PDX",
+    "quantity": 100,
+    "reserved": 15,
+    "available": 85,
+    "reorderLevel": 25,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "SF-WDR-BLU-M",
+    "productName": "Women's Floral Wrap Maxi Dress",
+    "variant": "Blue Floral / M",
+    "warehouse": "WH-PDX",
+    "quantity": 90,
+    "reserved": 10,
+    "available": 80,
+    "reorderLevel": 20,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "KA-ARTISAN-RED",
+    "productName": "KitchenAid Artisan Series 5-Qt Stand Mixer",
+    "variant": "Empire Red",
+    "warehouse": "WH-NSH",
+    "quantity": 35,
+    "reserved": 4,
+    "available": 31,
+    "reorderLevel": 10,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "LIT-ATOMHAB-PB",
+    "productName": "Atomic Habits by James Clear",
+    "variant": "Paperback",
+    "warehouse": "WH-BOS",
+    "quantity": 300,
+    "reserved": 50,
+    "available": 250,
+    "reorderLevel": 100,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "GB-VCS-30ML",
+    "productName": "GlowBeauty Vitamin C Brightening Serum 30ml",
+    "variant": "30ml",
+    "warehouse": "WH-MIA",
+    "quantity": 250,
+    "reserved": 30,
+    "available": 220,
+    "reorderLevel": 50,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "SNY-PS5-DISC-STD",
+    "productName": "Sony PlayStation 5 Console",
+    "variant": "Standard (Disc)",
+    "warehouse": "WH-AUS",
+    "quantity": 50,
+    "reserved": 8,
+    "available": 42,
+    "reorderLevel": 15,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "MAN-PRO-BLK-71",
+    "productName": "Manduka PRO Yoga Mat 6mm",
+    "variant": "Black / Standard",
+    "warehouse": "WH-DAL",
+    "quantity": 95,
+    "reserved": 10,
+    "available": 85,
+    "reorderLevel": 20,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "BOSE-QCUE-BLACK",
+    "productName": "Bose QuietComfort Ultra Earbuds",
+    "variant": "Black",
+    "warehouse": "WH-NY",
+    "quantity": 90,
+    "reserved": 12,
+    "available": 78,
+    "reorderLevel": 25,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "NKE-PEG41-M10-BLK",
+    "productName": "Nike Pegasus 41 Running Shoes",
+    "variant": "Men's 10 / Black-White",
+    "warehouse": "WH-SEA",
+    "quantity": 55,
+    "reserved": 5,
+    "available": 50,
+    "reorderLevel": 15,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "SAM-T9-2TB-BLK",
+    "productName": "Samsung T9 Portable SSD 2TB",
+    "variant": "Black / 2TB",
+    "warehouse": "WH-LA",
+    "quantity": 65,
+    "reserved": 9,
+    "available": 56,
+    "reorderLevel": 20,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "ECO-CBSET-3PC",
+    "productName": "Eco Bamboo Cutting Board Set (3-Piece)",
+    "variant": "3-Piece Set",
+    "warehouse": "WH-PDX",
+    "quantity": 200,
+    "reserved": 25,
+    "available": 175,
+    "reorderLevel": 50,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "DYS-TP07-WHT",
+    "productName": "Dyson Purifier Cool TP07 Air Purifier & Fan",
+    "variant": "White/Silver",
+    "warehouse": "WH-NSH",
+    "quantity": 35,
+    "reserved": 3,
+    "available": 32,
+    "reorderLevel": 8,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "GOO-PX9P-OBS-128",
+    "productName": "Google Pixel 9 Pro",
+    "variant": "Obsidian / 128GB",
+    "warehouse": "WH-CHI",
+    "quantity": 55,
+    "reserved": 7,
+    "available": 48,
+    "reorderLevel": 15,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "FTS-RBAND-LATEX",
+    "productName": "Fit Simplify Resistance Band Set (5-Pack)",
+    "variant": "Latex",
+    "warehouse": "WH-DEN",
+    "quantity": 400,
+    "reserved": 60,
+    "available": 340,
+    "reorderLevel": 100,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  },
+  {
+    "productSku": "LGO-TECH-42151-STD",
+    "productName": "LEGO Technic Bugatti Bolide 42151",
+    "variant": "Standard Box",
+    "warehouse": "WH-CHI",
+    "quantity": 180,
+    "reserved": 20,
+    "available": 160,
+    "reorderLevel": 40,
+    "lastUpdated": "2024-11-21T00:00:00Z"
+  }
+]
